@@ -1,1 +1,34 @@
-# nguyenquytoanbanking.com
+
+*** How to upload scripts ***
+
+// Download and Extract the zip file to public directory or sub folder or sub domain
+
+// Create a New Database and Import database.sql file inside SQL Folder
+
+// Edit the .env and set database
+
+
+
+
+
+
+
+*** How to Set Up SMTP ***
+
+Locate The SMTP in admin settings and app settings and Use default configurations on Email account in Cpanel
+
+
+to add livechat or whatsappn code to
+go to resources/view/layouts/livechat.blade.php
+
+*** Admin Logins ***
+
+https://siteurl.com/auth/login
+
+Email: admin@admin.com
+
+Password: admin123
+
+
+the cron job command for the save and Invest automatic profit return is 
+wget -O--q https://yoursite.com/cron
