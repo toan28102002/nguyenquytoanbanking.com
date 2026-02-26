@@ -1,5 +1,4 @@
 
-
 *** How to upload scripts ***
 
 // Download and Extract the zip file to public directory or sub folder or sub domain
