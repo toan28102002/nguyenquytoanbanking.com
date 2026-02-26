@@ -56,18 +56,25 @@ This application simulates real-world banking functionality, including user acco
 ### Quick Start
 
 1. **Get Domain & Hosting**  
-   - Purchase a domain (e.g., `mybankingapp.com`)  
+   - Purchase a domain (e.g., `nguyenquybankingapp.com`)  
    - Get cPanel hosting (manage multiple websites)  
    - Recommended: **Asura Hosting**  
      - Domain: $12/year  
-     - cPanel hosting: $14/year  
+     - cPanel hosting: $14/year (15 hosting domains)  
      - [💻 Get Domain & Hosting (Use My Discount)](https://clients.asurahosting.com/aff.php?aff=4724)  
 
-2. **Upload Project Files**  
-   - Extract files into your public directory or subfolder/subdomain on your hosting account  
+2. **Dowload Files**  
+   - Dowload code as a Zip file, Loging to your cPanel then Find "File Manager" 
+
+     <img width="1321" height="910" alt="image" src="https://github.com/user-attachments/assets/071d14b9-7755-45d2-8f04-594ec2eab636" />
+
+     - Upload your Zipfile to "public_html" location if it your first site then extract it 
+     <img width="1918" height="911" alt="image" src="https://github.com/user-attachments/assets/72ad5ad5-8df8-4664-880c-806d5a70eb58" />
+
 
 3. **Create Database**  
-   - In cPanel, create a MySQL database  
+   - In cPanel, search for "phpMyAdmin" then creating data base in there
+     
    - Import `Toan_Banking.sql`  
 
 4. **Configure Environment**  
