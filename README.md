@@ -95,5 +95,6 @@ Password: admin123
 
 
 the cron job command for the save and Invest automatic profit return is 
+
 wget -O--q https://yoursite.com/cron
 >>>>>>> 78691aea3eaff0668e1fff37cf4eeee443ce3449
