@@ -1,36 +1,47 @@
+NguyenQuyToanBanking.com
 
-*** How to upload scripts ***
+Public Banking Web App – Full-featured web banking project by Toan Nguyen
+Simulates online banking functionality with user accounts, transfers, dashboards, and admin controls.
 
-// Download and Extract the zip file to public directory or sub folder or sub domain
+🚀 Features
 
-// Create a New Database and Import database.sql file inside SQL Folder
+✅ User Registration & Authentication – secure login and account management
 
-// Edit the .env and set database
+✅ Account Management & Balance Tracking – view balances and transaction history
+
+✅ Money Transfers – send and receive money between accounts
+
+✅ Transaction History & Dashboards – detailed overview of all activities
+
+✅ Admin Panel – manage users, settings, and monitor activity
+
+✅ Automated Cron Jobs – automatic profit returns and scheduled tasks
+
+✅ Email Notifications via SMTP – for alerts and confirmations
+
+✅ Crypto Conversion – convert balances between supported cryptocurrencies
+
+✅ Loan Management – apply for, track, and repay loans within the app
+
+✅ Tax Payments – calculate and pay taxes directly from the user account
+
+🗂 Project Structure
+| Folder/File                                     | Description                      |
+| ----------------------------------------------- | -------------------------------- |
+| `app`                                           | Backend logic                    |
+| `routes`                                        | Routes and controllers           |
+| `config`                                        | Configuration files              |
+| `database`                                      | SQL scripts & backups            |
+| `css` / `js` / `bootstrap` / `fonts` / `images` | Frontend assets                  |
+| `dash` / `dash2`                                | User dashboards                  |
+| `resources`                                     | Views and templates              |
+| `storage`                                       | Storage for uploads & temp files |
+| `tests`                                         | Test scripts                     |
+| `.env.example`                                  | Template for environment config  |
+| `Toan_Banking.sql`                              | Database export                  |
 
 
 
 
 
 
-
-*** How to Set Up SMTP ***
-
-Locate The SMTP in admin settings and app settings and Use default configurations on Email account in Cpanel
-
-
-to add livechat or whatsappn code to
-go to resources/view/layouts/livechat.blade.php
-
-*** Admin Logins ***
-
-https://siteurl.com/auth/login
-
-Email: admin@admin.com
-
-Password: admin123
-
-
-the cron job command for the save and Invest automatic profit return is 
-
-wget -O--q https://yoursite.com/cron
->>>>>>> 78691aea3eaff0668e1fff37cf4eeee443ce3449
