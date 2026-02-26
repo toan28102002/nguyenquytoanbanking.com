@@ -65,13 +65,13 @@ This application simulates real-world banking functionality, including user acco
 
 2. **Download Files**  
    - Download the code as a Zip file, log in to your cPanel, then find "File Manager"  
-
+---
    <img width="1321" height="910" alt="image" src="https://github.com/user-attachments/assets/071d14b9-7755-45d2-8f04-594ec2eab636" />
-
+---
    - Upload your Zip file to the `public_html` directory (default for your first site). Right-click the Zip file and **extract** it.  
-
+---
    <img width="1918" height="911" alt="image" src="https://github.com/user-attachments/assets/72ad5ad5-8df8-4664-880c-806d5a70eb58" />
-
+---
 3. **Create Database**  
    - In cPanel, search for "phpMyAdmin" and click "Import" to upload the `Toan_Banking.sql` file.  
    - **Tip:** Name your database, user, and password the same for easier configuration.  
