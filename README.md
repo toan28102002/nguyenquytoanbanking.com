@@ -40,7 +40,7 @@ I have been working on this project for several months, continuously adding new 
 | `resources`                                     | Views and templates              |
 | `storage`                                       | Storage for uploads & temp files |
 | `tests`                                         | Test scripts                     |
-| `.env.example`                                  | Template for environment config  |
+| `.env.example`                                  | Change this to your .env file    |
 | `Toan_Banking.sql`                              | Database export                  |
 
 
