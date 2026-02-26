@@ -65,33 +65,42 @@ This application simulates real-world banking functionality, including user acco
 
 2. **Download Files**  
    - Download the code as a Zip file, log in to your cPanel, then find "File Manager"  
----
+
+   <br>
    <img width="1321" height="910" alt="image" src="https://github.com/user-attachments/assets/071d14b9-7755-45d2-8f04-594ec2eab636" />
----
+
    - Upload your Zip file to the `public_html` directory (default for your first site). Right-click the Zip file and **extract** it.  
----
+
+   <br>
    <img width="1918" height="911" alt="image" src="https://github.com/user-attachments/assets/72ad5ad5-8df8-4664-880c-806d5a70eb58" />
----
+
 3. **Create Database**  
    - In cPanel, search for "phpMyAdmin" and click "Import" to upload the `Toan_Banking.sql` file.  
    - **Tip:** Name your database, user, and password the same for easier configuration.  
-<img width="940" height="567" alt="image" src="https://github.com/user-attachments/assets/d863b5da-f7b2-4df4-b4e8-1ac4ec79b7f6" />
 
+   <br>
+   <img width="940" height="567" alt="image" src="https://github.com/user-attachments/assets/d863b5da-f7b2-4df4-b4e8-1ac4ec79b7f6" />
+
+   <br>
    <img width="1918" height="911" alt="image" src="https://github.com/user-attachments/assets/b49bd886-9fd4-40fb-9614-f3b4a58b16fb" />
 
 4. **Configure Environment**  
    - Go back to File Manager, rename `.env.example` to `.env`  
 
+   <br>
    <img width="1916" height="910" alt="image" src="https://github.com/user-attachments/assets/5ed36e13-701b-4fc3-8b16-208122255697" />  
 
    - Replace the database name, user, password, and URL with your own credentials:  
 
+   <br>
    <img width="958" height="952" alt="image" src="https://github.com/user-attachments/assets/79b9b267-e7e6-4a91-9973-cc4fe22d565c" />
 
    - Once done, your app should be ready! Create an account to test it.  
 
+   <br>
    <img width="1918" height="1021" alt="Screenshot 2026-02-26 012000" src="https://github.com/user-attachments/assets/253cdf1e-116f-4a63-ac57-17b294a5f6fe" />  
 
+   <br>
    <img width="1907" height="908" alt="hinh3" src="https://github.com/user-attachments/assets/9db93191-6137-45f0-bc0e-971226c59d5a" />
 
 5. **Access Admin Panel**  
@@ -100,7 +109,11 @@ This application simulates real-world banking functionality, including user acco
    - Password: `admin123`  
    - Use this panel to manage users.  
 
+   <br>
    <img width="1918" height="967" alt="image" src="https://github.com/user-attachments/assets/1e51a61e-135c-4ca6-8654-05200a19564b" />
+
+
+## Extra Features:
 
 6. **Setup SMTP (Email Notifications)**  
    - Configure SMTP in admin and app settings using your cPanel credentials  
@@ -110,5 +123,10 @@ This application simulates real-world banking functionality, including user acco
    - Setup cron jobs for automated profit returns  
 
 ---
+## 🎬 Video Demo:
+
+
+
+
 
 ✅ **Tip:** Always backup the database before making major changes.
