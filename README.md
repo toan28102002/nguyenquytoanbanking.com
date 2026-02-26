@@ -7,6 +7,15 @@
 ![Hack](https://img.shields.io/badge/Hack-0.4%25-lightgrey) 
 ![SCSS](https://img.shields.io/badge/SCSS-0.1%25-pink)
 
+## 👨‍💻 Author
+
+**Toan Nguyen**  
+- B.S. in Computer Science — University of Missouri–Kansas City  
+- Data Analyst in training, pursuing a future career in Data Science
+- Portfolio: http://toanportfolio.com/
+- Questions? Feel free to reach me at: nguyenquytoan@outlook.com
+---
+
 **Public Banking Web App** – a full-featured online banking project developed by **Toan Nguyen**.
 
 This application simulates real-world banking functionality, including user accounts, money transfers, dashboards, crypto conversions, loan management, tax payments, and admin controls. I have been working on this project for several months, continuously adding new features and improving functionality to create a comprehensive and secure banking experience.
