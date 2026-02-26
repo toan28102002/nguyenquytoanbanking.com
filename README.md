@@ -61,7 +61,7 @@ This application simulates real-world banking functionality, including user acco
    - Recommended: **Asura Hosting**  
      - Domain: $12/year  
      - cPanel hosting: $14/year (15 hosting domains)  
-     - [💻 Get Domain & Hosting (Use My Discount)](https://clients.asurahosting.com/aff.php?aff=4724)  
+     - [💻 Get Domain & Hosting (Use My Discount)](https://clients.asurahosting.com/aff.php?aff=4724)  https://clients.asurahosting.com/aff.php?aff=4724
 
 2. **Download Files**  
    - Download the code as a Zip file, log in to your cPanel, then find "File Manager"  
