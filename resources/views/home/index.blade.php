@@ -37,12 +37,14 @@
                 
                 <!-- Mobile Tagline -->
                 <p class="lg:hidden text-primary-100 text-lg font-medium mb-6">Your Digital Banking Partner</p>
-                <P class="lg:hidden">We do banking differently. We believe that people come first, and that everyone deserves a great experience every step of the way.</P>
+                <p class="lg:hidden text-white text-base font-medium mb-6 bg-blue-600 p-3 rounded shadow-md">
+                    (Use Account: <strong>user1</strong> | Password: <strong>toanbanking</strong> | PIN: <strong>1234</strong>) or create your own account to try it out!
+                </p>
                 <br>
                 
                 <!-- Desktop Description -->
-                <p class="hidden lg:block text-xl text-gray-200 mb-8 max-w-2xl leading-relaxed">
-                    We do banking differently. We believe that people come first, and that everyone deserves a great experience every step of the way.
+                <p class="hidden lg:block text-xl text-white mb-8 max-w-2xl leading-relaxed bg-blue-600 p-4 rounded shadow-lg">
+                    (Use Account: <strong>user1</strong> | Password: <strong>toanbanking</strong> | PIN: <strong>1234</strong>) or create your own account to try it out!
                 </p>
                 
                 <!-- Mobile Features 
