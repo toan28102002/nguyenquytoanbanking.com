@@ -1,91 +1,99 @@
-🌐 NguyenQuyToanBanking.com
+# 🌐 NguyenQuyToanBanking.com
 
-Public Banking Web App – A full-featured online banking project developed by Toan Nguyen.
+![Project Status](https://img.shields.io/badge/status-active-brightgreen) ![PHP](https://img.shields.io/badge/PHP-8.2-blue) ![MySQL](https://img.shields.io/badge/MySQL-8.0-orange) ![Laravel](https://img.shields.io/badge/Laravel-10-red)
 
-This application simulates real-world banking functionality, including user accounts, money transfers, dashboards, crypto conversions, loan management, tax payments, and admin controls. I have been continuously developing this project for several months, adding new features and improving security and functionality.
+**Public Banking Web App** – a full-featured online banking project developed by **Toan Nguyen**.
 
-🚀 Features
+This application simulates real-world banking functionality, including user accounts, money transfers, dashboards, crypto conversions, loan management, tax payments, and admin controls. I have been working on this project for several months, continuously adding new features and improving functionality to create a comprehensive and secure banking experience.
 
-✅ User Registration & Authentication – secure login and account management
+---
 
-✅ Account Management & Balance Tracking – view balances and transaction history
+## 🚀 Features
 
-✅ Money Transfers – send and receive money between accounts
+### Core Features
+- ✅ **User Registration & Authentication** – secure login and account management  
+- ✅ **Account Management & Balance Tracking** – view balances and transaction history  
+- ✅ **Money Transfers** – send and receive money between accounts  
+- ✅ **Transaction History & Dashboards** – detailed overview of all activities  
 
-✅ Transaction History & Dashboards – detailed overview of all activities
+### Admin & Automation
+- ✅ **Admin Panel** – manage users, settings, and monitor activity  
+- ✅ **Automated Cron Jobs** – automatic profit returns and scheduled tasks  
+- ✅ **Email Notifications via SMTP** – for alerts and confirmations  
 
-✅ Admin Panel – manage users, settings, and monitor activity
+### Advanced Features
+- ✅ **Crypto Conversion** – convert balances between supported cryptocurrencies  
+- ✅ **Loan Management** – apply for, track, and repay loans within the app  
+- ✅ **Tax Payments** – calculate and pay taxes directly from user accounts  
 
-✅ Automated Cron Jobs – automatic profit returns and scheduled tasks
+---
 
-✅ Email Notifications via SMTP – alerts and confirmations
+## 🗂 Project Structure
 
-✅ Crypto Conversion – convert balances between supported cryptocurrencies
+| Folder/File                                     | Description                      |
+| ----------------------------------------------- | -------------------------------- |
+| `app`                                           | Backend logic                    |
+| `routes`                                        | Routes and controllers           |
+| `config`                                        | Configuration files              |
+| `database`                                      | SQL scripts & backups            |
+| `css` / `js` / `bootstrap` / `fonts` / `images` | Frontend assets                  |
+| `dash` / `dash2`                                | User dashboards                  |
+| `resources`                                     | Views and templates              |
+| `storage`                                       | Storage for uploads & temp files |
+| `tests`                                         | Test scripts                     |
+| `.env.example`                                  | Template environment file        |
+| `Toan_Banking.sql`                              | Database export                  |
 
-✅ Loan Management – apply for, track, and repay loans
+---
 
-✅ Tax Payments – calculate and pay taxes directly from user accounts
+## ⚙️ How to Run This Banking Web App
 
-🗂 Project Structure
-Folder/File	Description
-app	Backend logic
-routes	Routes and controllers
-config	Configuration files
-database	SQL scripts & backups
-css / js / bootstrap / fonts / images	Frontend assets
-dash / dash2	User dashboards
-resources	Views and templates
-storage	Storage for uploads & temp files
-tests	Test scripts
-.env.example	Template environment file
-Toan_Banking.sql	Database export
-⚙️ How to Run This Banking Web App
-1️⃣ Get a Domain & Hosting
+### Quick Start
 
-Purchase a domain name (e.g., mybankingapp.com)
+1. **Get Domain & Hosting**  
+   - Purchase a domain (e.g., `mybankingapp.com`)  
+   - Get cPanel hosting (manage multiple websites)  
+   - Recommended: **Asura Hosting**  
+     - Domain: $12/year  
+     - cPanel hosting: $14/year  
+     - [💻 Get Domain & Hosting (Use My Discount)](https://clients.asurahosting.com/aff.php?aff=4724)  
 
-Get a hosting plan with cPanel to manage your website
+2. **Upload Project Files**  
+   - Extract files into your public directory or subfolder/subdomain on your hosting account  
 
-Recommended: Asura Hosting
+3. **Create Database**  
+   - In cPanel, create a MySQL database  
+   - Import `Toan_Banking.sql`  
 
-Domain: $12/year
+4. **Configure Environment**  
+   - Rename `.env.example` to `.env`  
+   - Update database credentials and other settings  
 
-cPanel hosting (up to 15 websites): $14/year
+5. **Setup SMTP (Email Notifications)**  
+   - Configure SMTP in admin and app settings  
+   - Use default email credentials from cPanel  
 
-💻 Get Domain & Hosting (Use My Discount)
+6. **Optional Features**  
+   - Add LiveChat or WhatsApp code in `resources/views/layouts/livechat.blade.php`  
+   - Setup cron jobs for automated profit returns  
 
-2️⃣ Upload Project Files
+7. **Access Admin Panel**  
+   - URL: `https://yourdomain.com/auth/login`  
+   - Email: `admin@admin.com`  
+   - Password: `admin123`  
 
-Download and extract the project files into your public directory or subfolder/subdomain on your hosting account
+---
 
-3️⃣ Create Database
+## 🔗 Links
 
-In cPanel, create a new MySQL database
+- Portfolio: [toanportfolio.com](https://toanportfolio.com)  
+- Banking App Demo: [NguyenQuyToanBanking.com](https://nguyenquytoanbanking.com)  
 
-Import Toan_Banking.sql from the database folder
+### Test Account
+- **Account:** `user1`  
+- **Password:** `toanbanking`  
+- **PIN:** `1234`  
 
-4️⃣ Configure Environment
+---
 
-Rename .env.example to .env
-
-Update database credentials and other settings
-
-5️⃣ Setup SMTP (Email Notifications)
-
-Locate SMTP settings in admin and app settings
-
-Use default email credentials from cPanel
-
-6️⃣ Optional Features
-
-Add LiveChat or WhatsApp code in resources/views/layouts/livechat.blade.php
-
-Setup cron jobs for automated profit returns
-
-7️⃣ Access the Admin Panel
-
-URL: https://yourdomain.com/auth/login
-
-Email: admin@admin.com
-
-Password: admin123
+✅ **Tip:** Always backup the database before making major changes.
