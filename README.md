@@ -1,7 +1,4 @@
 # 🌐 NguyenQuyToanBanking.com
-
-## 🛠 Languages & Technologies Used
-
 ![JavaScript](https://img.shields.io/badge/JavaScript-41.8%25-yellow) 
 ![CSS](https://img.shields.io/badge/CSS-33.4%25-blue) 
 ![Blade](https://img.shields.io/badge/Blade-19.3%25-orange) 
@@ -9,6 +6,7 @@
 ![HTML](https://img.shields.io/badge/HTML-0.9%25-red) 
 ![Hack](https://img.shields.io/badge/Hack-0.4%25-lightgrey) 
 ![SCSS](https://img.shields.io/badge/SCSS-0.1%25-pink)
+
 **Public Banking Web App** – a full-featured online banking project developed by **Toan Nguyen**.
 
 This application simulates real-world banking functionality, including user accounts, money transfers, dashboards, crypto conversions, loan management, tax payments, and admin controls. I have been working on this project for several months, continuously adding new features and improving functionality to create a comprehensive and secure banking experience.
