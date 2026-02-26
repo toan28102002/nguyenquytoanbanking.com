@@ -43,58 +43,41 @@ I have been working on this project for several months, continuously adding new 
 | `.env.example`                                  | Change this to your .env file    |
 | `Toan_Banking.sql`                              | Database export                  |
 
+
+
 ⚙️ How to Run This Banking Web App
 
-To run this project live on the web, follow these steps:
+## How to Run This Banking Web App
 
-Get a Domain & Hosting
+### 1️⃣ Get a Domain & Hosting
+- Purchase a domain name (e.g., mybankingapp.com)
+- Get a hosting plan with cPanel to manage your website
+- I personally use Asura Hosting  
+  - Domain: $12/year  
+  - cPanel hosting (manage up to 15 websites): $14/year  
+  - [💻 Get Domain & Hosting (Use My Discount)](https://clients.asurahosting.com/aff.php?aff=4724)
 
-Purchase a domain name (e.g., mybankingapp.com)
+### 2️⃣ Upload Project Files
+- Download and extract the project files into your public directory or a subfolder/subdomain on your hosting account
 
-Get a hosting plan with cPanel to manage your website
+### 3️⃣ Create Database
+- In cPanel, create a new MySQL database
+- Import the Toan_Banking.sql file from the database folder
 
-I personally use Asura Hosting
+### 4️⃣ Configure Environment
+- Rename .env.example to .env
+- Update database credentials and other settings
 
-Domain: $12/year
+### 5️⃣ Setup SMTP (Email Notifications)
+- Locate SMTP settings in admin and app settings
+- Use default email credentials from cPanel
 
-cPanel hosting (manage up to 15 websites): $14/year
+### 6️⃣ Optional Features
+- Add LiveChat or WhatsApp code in resources/views/layouts/livechat.blade.php
+- Setup cron jobs for automated profit returns
 
-Use my affiliate link for a discount: Get Asura Hosting
-
-Upload Project Files
-
-Download and extract the project files into the public directory or a subfolder/subdomain on your hosting account
-
-Create Database
-
-In cPanel, create a new MySQL database
-
-Import the Toan_Banking.sql file from the database folder
-
-Configure Environment
-
-Rename .env.example to .env
-
-Update database credentials and other settings
-
-Setup SMTP (Email Notifications)
-
-Locate SMTP settings in admin and app settings
-
-Use default email credentials from cPanel
-
-Optional Features
-
-Add LiveChat or WhatsApp code in resources/views/layouts/livechat.blade.php
-
-Setup cron jobs for automated profit returns
-
-Access the Admin Panel
-
-URL: https://yourdomain.com/auth/login
-Email: admin@admin.com
+### 7️⃣ Access the Admin Panel
+URL: https://yourdomain.com/auth/login  
+Email: admin@admin.com  
 Password: admin123
-
-
-
 
