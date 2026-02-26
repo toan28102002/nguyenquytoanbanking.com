@@ -128,5 +128,9 @@ This application simulates real-world banking functionality, including user acco
 
 
 
+https://github.com/user-attachments/assets/088164c0-2e45-4780-b055-9d76f604b18a
+
+
+
 
 ✅ **Tip:** Always backup the database before making major changes.
