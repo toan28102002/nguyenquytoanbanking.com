@@ -1,7 +1,10 @@
-NguyenQuyToanBanking.com
+**NguyenQuyToanBanking.com**
 
-Public Banking Web App – Full-featured web banking project by Toan Nguyen
-Simulates online banking functionality with user accounts, transfers, dashboards, and admin controls.
+Public Banking Web App – a full-featured online banking project developed by Toan Nguyen.
+
+This application simulates real-world banking functionality, including: user accounts, money transfers, dashboards, crypto conversions, loan management, tax payments, and admin controls.
+
+I have been working on this project for several months, continuously adding new features and improving functionality in my free time to create a comprehensive and secure banking experience.
 
 🚀 Features
 
