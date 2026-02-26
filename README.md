@@ -45,9 +45,7 @@ I have been working on this project for several months, continuously adding new 
 
 
 
-##⚙️ How to Run This Banking Web App
-
-## How to Run This Banking Web App
+## ⚙️How to Run This Banking Web App
 
 ### 1️⃣ Get a Domain & Hosting
 - Purchase a domain name (e.g., mybankingapp.com)
